@@ -13,6 +13,54 @@
   }
 }
 
+
+.clock{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 210px;
+  width:210px;
+  color:rgba(243, 243, 243, 1);
+  border: 3.45px solid white;
+  border-radius: 50%;
+  box-shadow: 13.79310417175293px 13.79310417175293px 34.48276138305664px 0px rgba(0, 0, 0, 0.25);
+/* box-shadow: 13.79310417175293px 13.79310417175293px 34.48276138305664px 0px rgba(0, 0, 0, 0.25) inset; */
+/* box-shadow: -13.79310417175293px -13.79310417175293px 34.48276138305664px 0px rgba(255, 255, 255, 1) inset; */
+}
+
+.minutes-ticks{
+  position:absolute;
+  top:1%;
+
+}
+
+.hours-pin{
+  position:absolute;
+  bottom:83px;
+  left:34px;
+
+}
+
+.seconds-pin{
+  position:absolute;
+  bottom:55px;
+  left:88px;
+
+}
+
+.minutes-pin{
+  position:absolute;
+  bottom:85px;
+  left:85px;
+}
+
+.pin-stopper{
+  position:absolute;
+  bottom:89px;
+  left:94px;
+}
+
+
 .App-header {
   background-color: white;
   min-height: 100vh;
